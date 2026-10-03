@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #180122;
     color: #333;
 }
 
@@ -26,16 +26,22 @@ header img {
     width: 100px;
 }
 
-#menu-header {
+nav ul {
     color: white;
     margin-right: 20px;
     display: flex;
     gap: 20px;
 }
+a {
+    color:#ac04fa
+}
 
 #hero {
+    color: rgb(32, 245, 78);
     text-align: center;
     padding: 50px;
+    background-color: rgb(54, 9, 71);
+    border-radius:30px;
 }
 
 #hero h1 {
@@ -86,8 +92,13 @@ main {
     text-align: center;
     padding-bottom: 20px;
 }
+#produtos {
+    color: white;
+    margin-top: 20px;
+}
 
 .mangas {
+    color: white;
     margin-top: 20px;
 }
 .galeria-imgs-two {
@@ -117,3 +128,63 @@ main {
     padding-bottom: 20px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #055205;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #5bdd1f;
+}
+
+td {
+    color: #f0f9ff;
+}
+
+#usuario {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#informacoes-usuario {
+    color: white;
+    margin-top: 20px;
+}
+
+#historico-compras {
+    color: white;
+    margin-top: 20px;
+}
+
+#configuracoes {
+    color: white;
+    margin-top: 20px;
+}
+
+#suporte {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#logout {
+    text-align:end;
+    color: white;
+    margin-top: 30px;
+}
+
+#direitos-autorais {
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
